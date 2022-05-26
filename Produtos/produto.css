@@ -1,0 +1,148 @@
+header {
+    background-color: #cccccc;
+    /* espassameto */
+    padding: 0 20px;
+}
+
+.caixa {
+    position: relative;
+    /*tamanho da tela*/
+    width: 940px;
+    /*define a distancia entre aas bordas*/
+    margin: 0 auto;
+
+}
+
+nav {
+    /* posição dos itens */
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+nav li {
+    display: inline;
+
+    /* Separação entre os itens  */
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #2d76ff;
+    text-decoration: underline;
+
+}
+
+.Produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+
+.Produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+
+    /* background: #8cb3e6; */
+    margin: 0 1.5%;
+
+    /* espacamento interno */
+    padding: 30px 20px;
+
+    /* deixa o tamanho padão definido pelo width */
+    box-sizing: border-box;
+
+    /* trabalhando comm as bordas */
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+
+/* =================================== */
+
+/* trabalhando com efeitos com o mouse  */
+
+.Produtos li:hover {
+    border-color: #2d76ff;
+}
+
+.Produtos li:active {
+    border-color: #42ff5b;
+}
+
+.Produtos li:hover h2 {
+    font-size: 34px;
+}
+
+/* =================================== */
+.Produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Produto-descricao {
+    font-size: 18px;
+}
+
+.Produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    margin-top: 10px;
+}
+
+/* ============================== */
+
+/* Rodapé */
+
+footer {
+    text-align: center;
+    background: url("img/bg.jpg");
+    padding: 40px 0;
+}
+
+.Copyright {
+    color: #cccccc;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+/* ============================== */
+
+
+/* Configurações da pagina de contato */
+
+
+main {
+    margin: 0 auto;
+    width: 940px;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 25px;
+    padding: 10px 25px;
+
+}

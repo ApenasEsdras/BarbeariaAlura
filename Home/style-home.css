@@ -1,0 +1,62 @@
+body {
+    background: wheat;
+}
+
+#largura {
+    width: 100%;
+}
+
+.texto {
+    text-align: center;
+    background: #cccccc;
+    padding: 30px;
+
+}
+
+.Titulo-Pricipal {
+
+    padding-left: 20px;
+}
+
+/* h1,
+P {
+    text-align: center;
+    background: #cccccc;
+} */
+
+/* p {
+    text-align: center;
+} */
+
+#missao {
+    font-size: 20px
+}
+
+/* usando uma teg dentro de outra teg. */
+
+em strong {
+    color: red;
+}
+
+h3 {
+    text-align: center;
+
+}
+
+ul {
+    vertical-align: top;
+
+    display: inline-block;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.itens {
+    /* text-align: center; */
+    font-style: italic;
+}
+
+#beneficios {
+    width: 50%;
+    padding: 20px;
+}
